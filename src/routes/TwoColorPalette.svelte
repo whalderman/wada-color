@@ -35,24 +35,22 @@
 <svg
 	viewBox="-{oo * 2} -{oo * 2} {svgWidth + oo * 2 * 2} {svgHeight + oo * 2 * 2}"
 >
-	<g>
-		<!-- outline the g -->
-		<polygon points={outlinePoints} />
-		<rect
-			x={0}
-			fill={c1.color.hex}
-			on:click|preventDefault={c1.copyHexToClipboard}
-			width={rectWidth}
-			height={u}
-		/>
-		<rect
-			x={rectWidth}
-			fill={c2.color.hex}
-			on:click|preventDefault={c2.copyHexToClipboard}
-			width={rectWidth}
-			height={u}
-		/>
-	</g>
+	<!-- outline the g -->
+	<polygon points={outlinePoints} />
+	<rect
+		x={0}
+		fill={c1.color.hex}
+		on:click|preventDefault={c1.copyHexToClipboard}
+		width={rectWidth}
+		height={u}
+	/>
+	<rect
+		x={rectWidth}
+		fill={c2.color.hex}
+		on:click|preventDefault={c2.copyHexToClipboard}
+		width={rectWidth}
+		height={u}
+	/>
 </svg>
 
 <style>

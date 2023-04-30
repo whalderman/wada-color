@@ -19,4 +19,6 @@
 	let u = 15;
 </script>
 
-<PaletteComponent colors={palette.colors} baseUnit={u} />
+<div>
+	<PaletteComponent colors={palette.colors} baseUnit={u} />
+</div>

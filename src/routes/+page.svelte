@@ -19,8 +19,8 @@
 	#palettes {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-		grid-auto-rows: minmax(15rem, 1fr);
 		gap: 0.5rem;
+		max-width: 100vw;
 	}
 
 	h1 {
@@ -31,9 +31,5 @@
 	p {
 		width: 100%;
 		text-align: center;
-	}
-
-	h2 {
-		margin: 1.5rem 0 0 0;
 	}
 </style>

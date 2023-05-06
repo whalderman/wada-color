@@ -1,6 +1,7 @@
 <div id="bg" />
-<main />
-<slot />
+<main>
+	<slot />
+</main>
 
 <style>
 	:global(body) {

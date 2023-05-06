@@ -1,26 +1,22 @@
 <script lang="ts">
-	import { WadaPalette } from '$lib/wadaPalette';
+	import { wadaPalettesByNum } from '$lib/wadaPalette';
 	import PaletteRow from './PaletteRow.svelte';
-
-	const palettes = [...WadaPalette.byIndex.entries()].sort(
-		(a, b) => a[0] - b[0]
-	);
 </script>
 
 <h1>Wada Color</h1>
 <p>Click a color to copy the hex.</p>
 <div id="palettes">
-	{#each palettes as [ii, palette]}
-		<PaletteRow index={ii} {palette} />
+	{#each wadaPalettesByNum as [paletteIndex, palette]}
+		<PaletteRow {paletteIndex} {palette} />
 	{/each}
 </div>
 
 <style>
 	#palettes {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-		gap: 0.5rem;
-		max-width: 100vw;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		gap: 1rem;
 	}
 
 	h1 {

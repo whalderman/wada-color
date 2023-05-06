@@ -1,5 +1,5 @@
 export interface Color {
-	name: string;
+	enName: string;
 	combinations: number[];
 	swatch: number;
 	cmyk: [number, number, number, number];
@@ -10,7 +10,7 @@ export interface Color {
 
 export const colors: Color[] = [
 	{
-		name: 'Hermosa Pink',
+		enName: 'Hermosa Pink',
 		combinations: [176, 227, 273],
 		swatch: 0,
 		cmyk: [0, 30, 6, 0],
@@ -19,7 +19,7 @@ export const colors: Color[] = [
 		hex: '#f9c1ce',
 	},
 	{
-		name: 'Corinthian Pink',
+		enName: 'Corinthian Pink',
 		combinations: [27, 43, 87, 97, 128, 169, 174, 206, 246, 254, 264, 342],
 		swatch: 0,
 		cmyk: [0, 35, 15, 0],
@@ -28,7 +28,7 @@ export const colors: Color[] = [
 		hex: '#f8b6ba',
 	},
 	{
-		name: 'Cameo Pink',
+		enName: 'Cameo Pink',
 		combinations: [101, 105, 116, 120, 165, 231],
 		swatch: 0,
 		cmyk: [10, 32, 19, 0],
@@ -37,7 +37,7 @@ export const colors: Color[] = [
 		hex: '#e0b3b6',
 	},
 	{
-		name: 'Fawn',
+		enName: 'Fawn',
 		combinations: [18, 125, 308],
 		swatch: 0,
 		cmyk: [18, 31, 30, 0],
@@ -46,7 +46,7 @@ export const colors: Color[] = [
 		hex: '#d1b0a7',
 	},
 	{
-		name: 'Light Brown Drab',
+		enName: 'Light Brown Drab',
 		combinations: [35, 68, 185, 191, 223, 239, 244, 268, 285, 321],
 		swatch: 0,
 		cmyk: [8, 30, 20, 25],
@@ -55,7 +55,7 @@ export const colors: Color[] = [
 		hex: '#b59392',
 	},
 	{
-		name: 'Coral Red',
+		enName: 'Coral Red',
 		combinations: [92, 123, 320, 332],
 		swatch: 0,
 		cmyk: [0, 55, 40, 0],
@@ -64,7 +64,7 @@ export const colors: Color[] = [
 		hex: '#f58e84',
 	},
 	{
-		name: 'Fresh Color',
+		enName: 'Fresh Color',
 		combinations: [240],
 		swatch: 0,
 		cmyk: [0, 53, 45, 0],
@@ -73,7 +73,7 @@ export const colors: Color[] = [
 		hex: '#f6917e',
 	},
 	{
-		name: 'Grenadine Pink',
+		enName: 'Grenadine Pink',
 		combinations: [6, 21, 112, 166, 193, 201, 230, 300, 315, 341],
 		swatch: 0,
 		cmyk: [0, 62, 58, 0],
@@ -82,7 +82,7 @@ export const colors: Color[] = [
 		hex: '#f48067',
 	},
 	{
-		name: 'Eosine Pink',
+		enName: 'Eosine Pink',
 		combinations: [
 			34, 59, 90, 108, 134, 153, 197, 242, 248, 276, 287, 314, 327, 336,
 		],
@@ -93,7 +93,7 @@ export const colors: Color[] = [
 		hex: '#f37f94',
 	},
 	{
-		name: 'Spinel Red',
+		enName: 'Spinel Red',
 		combinations: [14, 147, 165, 184, 195, 224, 277],
 		swatch: 0,
 		cmyk: [0, 70, 21, 0],
@@ -102,7 +102,7 @@ export const colors: Color[] = [
 		hex: '#f27291',
 	},
 	{
-		name: 'Old Rose',
+		enName: 'Old Rose',
 		combinations: [55, 162, 260, 265],
 		swatch: 0,
 		cmyk: [15, 70, 40, 0],
@@ -111,7 +111,7 @@ export const colors: Color[] = [
 		hex: '#d46d7a',
 	},
 	{
-		name: 'Eugenia Red | A',
+		enName: 'Eugenia Red | A',
 		combinations: [284],
 		swatch: 0,
 		cmyk: [7, 76, 60, 0],
@@ -120,7 +120,7 @@ export const colors: Color[] = [
 		hex: '#e2625e',
 	},
 	{
-		name: 'Eugenia Red | B',
+		enName: 'Eugenia Red | B',
 		combinations: [17, 77, 252, 262, 270, 280, 282, 325],
 		swatch: 0,
 		cmyk: [0, 80, 50, 10],
@@ -129,7 +129,7 @@ export const colors: Color[] = [
 		hex: '#da525d',
 	},
 	{
-		name: 'Raw Sienna',
+		enName: 'Raw Sienna',
 		combinations: [
 			3, 13, 33, 70, 86, 130, 131, 182, 243, 247, 252, 255, 268, 269, 279, 293,
 			298, 319, 327,
@@ -141,7 +141,7 @@ export const colors: Color[] = [
 		hex: '#bb7125',
 	},
 	{
-		name: 'Vinaceous Tawny',
+		enName: 'Vinaceous Tawny',
 		combinations: [40, 85, 244],
 		swatch: 0,
 		cmyk: [17, 72, 100, 6],
@@ -150,7 +150,7 @@ export const colors: Color[] = [
 		hex: '#c56127',
 	},
 	{
-		name: 'Jasper Red',
+		enName: 'Jasper Red',
 		combinations: [155, 194, 216, 219],
 		swatch: 0,
 		cmyk: [2, 83, 100, 0],
@@ -159,7 +159,7 @@ export const colors: Color[] = [
 		hex: '#eb5324',
 	},
 	{
-		name: 'Spectrum Red',
+		enName: 'Spectrum Red',
 		combinations: [257, 266, 301, 322],
 		swatch: 0,
 		cmyk: [5, 100, 100, 0],
@@ -168,7 +168,7 @@ export const colors: Color[] = [
 		hex: '#e31f26',
 	},
 	{
-		name: 'Red Orange',
+		enName: 'Red Orange',
 		combinations: [31, 164, 179, 241, 264],
 		swatch: 0,
 		cmyk: [9, 90, 100, 0],
@@ -177,7 +177,7 @@ export const colors: Color[] = [
 		hex: '#dd4027',
 	},
 	{
-		name: 'Etruscan Red',
+		enName: 'Etruscan Red',
 		combinations: [25, 47, 97, 137, 152, 185, 275],
 		swatch: 0,
 		cmyk: [16, 80, 74, 6],
@@ -186,7 +186,7 @@ export const colors: Color[] = [
 		hex: '#c55347',
 	},
 	{
-		name: 'Burnt Sienna',
+		enName: 'Burnt Sienna',
 		combinations: [198, 242, 263, 285, 286, 297, 312, 333, 343],
 		swatch: 0,
 		cmyk: [22, 76, 100, 15],
@@ -195,7 +195,7 @@ export const colors: Color[] = [
 		hex: '#ae5224',
 	},
 	{
-		name: 'Ochre Red',
+		enName: 'Ochre Red',
 		combinations: [199, 283],
 		swatch: 0,
 		cmyk: [18, 73, 63, 20],
@@ -204,7 +204,7 @@ export const colors: Color[] = [
 		hex: '#ab544d',
 	},
 	{
-		name: 'Scarlet',
+		enName: 'Scarlet',
 		combinations: [136, 308, 332],
 		swatch: 0,
 		cmyk: [10, 95, 72, 7],
@@ -213,7 +213,7 @@ export const colors: Color[] = [
 		hex: '#cb2f43',
 	},
 	{
-		name: 'Carmine',
+		enName: 'Carmine',
 		combinations: [39, 117, 122, 154, 225, 232, 307, 313],
 		swatch: 0,
 		cmyk: [0, 100, 75, 16],
@@ -222,7 +222,7 @@ export const colors: Color[] = [
 		hex: '#cc1236',
 	},
 	{
-		name: 'Indian Lake',
+		enName: 'Indian Lake',
 		combinations: [299, 331],
 		swatch: 0,
 		cmyk: [12, 89, 35, 9],
@@ -231,7 +231,7 @@ export const colors: Color[] = [
 		hex: '#c53c69',
 	},
 	{
-		name: 'Rosolanc Purple',
+		enName: 'Rosolanc Purple',
 		combinations: [48, 144, 170, 204, 277, 346],
 		swatch: 0,
 		cmyk: [30, 90, 33, 0],
@@ -240,7 +240,7 @@ export const colors: Color[] = [
 		hex: '#b73f74',
 	},
 	{
-		name: 'Pomegranite Purple',
+		enName: 'Pomegranite Purple',
 		combinations: [220, 271],
 		swatch: 0,
 		cmyk: [23, 100, 50, 6],
@@ -249,7 +249,7 @@ export const colors: Color[] = [
 		hex: '#b71f57',
 	},
 	{
-		name: 'Hydrangea Red',
+		enName: 'Hydrangea Red',
 		combinations: [142],
 		swatch: 0,
 		cmyk: [38, 90, 70, 0],
@@ -258,7 +258,7 @@ export const colors: Color[] = [
 		hex: '#a94151',
 	},
 	{
-		name: 'Brick Red',
+		enName: 'Brick Red',
 		combinations: [37, 108, 246, 322, 328],
 		swatch: 0,
 		cmyk: [22, 84, 100, 18],
@@ -267,7 +267,7 @@ export const colors: Color[] = [
 		hex: '#a84222',
 	},
 	{
-		name: 'Carmine Red',
+		enName: 'Carmine Red',
 		combinations: [35, 51, 104, 130, 181, 200, 221, 228, 233, 237, 245, 338],
 		swatch: 0,
 		cmyk: [25, 95, 80, 16],
@@ -276,7 +276,7 @@ export const colors: Color[] = [
 		hex: '#a62c37',
 	},
 	{
-		name: 'Pompeian Red',
+		enName: 'Pompeian Red',
 		combinations: [30, 71, 120, 212, 311, 324],
 		swatch: 0,
 		cmyk: [18, 97, 74, 19],
@@ -285,7 +285,7 @@ export const colors: Color[] = [
 		hex: '#ab2439',
 	},
 	{
-		name: 'Red',
+		enName: 'Red',
 		combinations: [251, 261],
 		swatch: 0,
 		cmyk: [30, 100, 70, 10],
@@ -294,7 +294,7 @@ export const colors: Color[] = [
 		hex: '#a72144',
 	},
 	{
-		name: 'Brown',
+		enName: 'Brown',
 		combinations: [110, 121, 145, 161],
 		swatch: 0,
 		cmyk: [35, 74, 90, 35],
@@ -303,7 +303,7 @@ export const colors: Color[] = [
 		hex: '#7c4226',
 	},
 	{
-		name: "Hay's Russet",
+		enName: "Hay's Russet",
 		combinations: [58, 82, 95, 152, 186, 231, 249, 304, 314, 336, 345],
 		swatch: 0,
 		cmyk: [37, 85, 87, 35],
@@ -312,7 +312,7 @@ export const colors: Color[] = [
 		hex: '#793327',
 	},
 	{
-		name: 'Vandyke Red',
+		enName: 'Vandyke Red',
 		combinations: [16, 133, 147, 316, 335],
 		swatch: 0,
 		cmyk: [32, 95, 95, 33],
@@ -321,7 +321,7 @@ export const colors: Color[] = [
 		hex: '#82241f',
 	},
 	{
-		name: 'Pansy Purple',
+		enName: 'Pansy Purple',
 		combinations: [157, 273],
 		swatch: 0,
 		cmyk: [34, 100, 60, 34],
@@ -330,7 +330,7 @@ export const colors: Color[] = [
 		hex: '#7d133a',
 	},
 	{
-		name: 'Pale Burnt Lake',
+		enName: 'Pale Burnt Lake',
 		combinations: [124, 171, 177, 205, 217, 258, 269, 283],
 		swatch: 0,
 		cmyk: [25, 90, 80, 40],
@@ -339,7 +339,7 @@ export const colors: Color[] = [
 		hex: '#802626',
 	},
 	{
-		name: 'Violet Red',
+		enName: 'Violet Red',
 		combinations: [9],
 		swatch: 0,
 		cmyk: [75, 100, 50, 5],
@@ -348,7 +348,7 @@ export const colors: Color[] = [
 		hex: '#642d5e',
 	},
 	{
-		name: 'Vistoris Lake',
+		enName: 'Vistoris Lake',
 		combinations: [63, 91, 165, 226, 290, 337],
 		swatch: 0,
 		cmyk: [40, 71, 55, 40],
@@ -357,7 +357,7 @@ export const colors: Color[] = [
 		hex: '#6d4145',
 	},
 	{
-		name: 'Sulpher Yellow',
+		enName: 'Sulpher Yellow',
 		combinations: [
 			52, 72, 80, 104, 132, 135, 151, 208, 246, 254, 270, 294, 296, 310, 315,
 			320, 321, 326,
@@ -369,7 +369,7 @@ export const colors: Color[] = [
 		hex: '#f5ecc2',
 	},
 	{
-		name: 'Pale Lemon Yellow',
+		enName: 'Pale Lemon Yellow',
 		combinations: [
 			3, 31, 60, 76, 99, 109, 111, 169, 185, 195, 203, 228, 241, 261, 272, 281,
 			290, 292, 336,
@@ -381,7 +381,7 @@ export const colors: Color[] = [
 		hex: '#ffefae',
 	},
 	{
-		name: 'Naples Yellow',
+		enName: 'Naples Yellow',
 		combinations: [14, 115, 166, 193, 303, 325],
 		swatch: 1,
 		cmyk: [2, 7, 44, 0],
@@ -390,7 +390,7 @@ export const colors: Color[] = [
 		hex: '#fbe6a0',
 	},
 	{
-		name: 'Ivory Buff',
+		enName: 'Ivory Buff',
 		combinations: [
 			11, 50, 94, 102, 126, 178, 184, 190, 209, 214, 235, 243, 262, 266, 301,
 			343,
@@ -402,7 +402,7 @@ export const colors: Color[] = [
 		hex: '#ebd3a2',
 	},
 	{
-		name: 'Seashell Pink',
+		enName: 'Seashell Pink',
 		combinations: [45, 84, 88, 113, 150, 176, 194, 276, 334],
 		swatch: 1,
 		cmyk: [0, 19, 23, 0],
@@ -411,7 +411,7 @@ export const colors: Color[] = [
 		hex: '#fdd4bd',
 	},
 	{
-		name: 'Light Pinkish Cinnamon',
+		enName: 'Light Pinkish Cinnamon',
 		combinations: [317],
 		swatch: 1,
 		cmyk: [0, 25, 40, 0],
@@ -420,7 +420,7 @@ export const colors: Color[] = [
 		hex: '#fcc79b',
 	},
 	{
-		name: 'Pinkish Cinnamon',
+		enName: 'Pinkish Cinnamon',
 		combinations: [78, 161, 175, 232, 258, 263, 292, 305, 310],
 		swatch: 1,
 		cmyk: [5, 32, 53, 0],
@@ -429,7 +429,7 @@ export const colors: Color[] = [
 		hex: '#eeb480',
 	},
 	{
-		name: 'Cinnamon Buff',
+		enName: 'Cinnamon Buff',
 		combinations: [23, 127, 137, 180, 210, 234, 246, 323, 344],
 		swatch: 1,
 		cmyk: [0, 25, 57, 0],
@@ -438,7 +438,7 @@ export const colors: Color[] = [
 		hex: '#fdc57e',
 	},
 	{
-		name: 'Cream Yellow',
+		enName: 'Cream Yellow',
 		combinations: [
 			122, 192, 215, 226, 267, 278, 294, 295, 300, 302, 304, 311, 329, 342,
 		],
@@ -449,7 +449,7 @@ export const colors: Color[] = [
 		hex: '#fdbf68',
 	},
 	{
-		name: 'Golden Yellow',
+		enName: 'Golden Yellow',
 		combinations: [26, 81, 132, 138, 140, 179, 206, 229, 309, 315],
 		swatch: 1,
 		cmyk: [2, 42, 74, 0],
@@ -458,7 +458,7 @@ export const colors: Color[] = [
 		hex: '#f3a257',
 	},
 	{
-		name: 'Vinaceous Cinnamon',
+		enName: 'Vinaceous Cinnamon',
 		combinations: [203, 205, 213, 256, 260, 279, 299],
 		swatch: 1,
 		cmyk: [4, 40, 42, 0],
@@ -467,7 +467,7 @@ export const colors: Color[] = [
 		hex: '#eea78c',
 	},
 	{
-		name: 'Ochraceous Salmon',
+		enName: 'Ochraceous Salmon',
 		combinations: [32, 71, 121, 186, 217, 220, 223, 238, 296, 339],
 		swatch: 1,
 		cmyk: [15, 38, 55, 0],
@@ -476,7 +476,7 @@ export const colors: Color[] = [
 		hex: '#d8a37b',
 	},
 	{
-		name: 'Isabella Color',
+		enName: 'Isabella Color',
 		combinations: [4, 12, 241, 292],
 		swatch: 1,
 		cmyk: [15, 28, 60, 10],
@@ -485,7 +485,7 @@ export const colors: Color[] = [
 		hex: '#c5a56e',
 	},
 	{
-		name: 'Maple',
+		enName: 'Maple',
 		combinations: [282],
 		swatch: 1,
 		cmyk: [5, 26, 56, 20],
@@ -494,7 +494,7 @@ export const colors: Color[] = [
 		hex: '#c59f6b',
 	},
 	{
-		name: 'Olive Buff',
+		enName: 'Olive Buff',
 		combinations: [83, 175, 200, 330, 348],
 		swatch: 1,
 		cmyk: [16, 6, 42, 12],
@@ -503,7 +503,7 @@ export const colors: Color[] = [
 		hex: '#c1c494',
 	},
 	{
-		name: 'Ecru',
+		enName: 'Ecru',
 		combinations: [167, 249, 275, 279, 292, 302, 317, 327],
 		swatch: 1,
 		cmyk: [20, 25, 40, 6],
@@ -512,7 +512,7 @@ export const colors: Color[] = [
 		hex: '#c2ae93',
 	},
 	{
-		name: 'Yellow',
+		enName: 'Yellow',
 		combinations: [22, 62, 68, 154, 240, 251, 295, 313],
 		swatch: 1,
 		cmyk: [0, 0, 100, 0],
@@ -521,7 +521,7 @@ export const colors: Color[] = [
 		hex: '#fff200',
 	},
 	{
-		name: 'Lemon Yellow',
+		enName: 'Lemon Yellow',
 		combinations: [
 			45, 123, 138, 158, 168, 173, 189, 210, 253, 259, 289, 298, 306, 317, 333,
 		],
@@ -532,7 +532,7 @@ export const colors: Color[] = [
 		hex: '#f8ed43',
 	},
 	{
-		name: 'Apricot Yellow',
+		enName: 'Apricot Yellow',
 		combinations: [107, 129, 163, 198, 213, 247, 265, 284, 305, 319],
 		swatch: 1,
 		cmyk: [0, 10, 100, 0],
@@ -541,7 +541,7 @@ export const colors: Color[] = [
 		hex: '#ffdd00',
 	},
 	{
-		name: 'Pyrite Yellow',
+		enName: 'Pyrite Yellow',
 		combinations: [239, 250, 255, 287],
 		swatch: 1,
 		cmyk: [23, 25, 80, 0],
@@ -550,7 +550,7 @@ export const colors: Color[] = [
 		hex: '#cab356',
 	},
 	{
-		name: 'Olive Ocher',
+		enName: 'Olive Ocher',
 		combinations: [66, 148, 149, 156, 157, 249, 278],
 		swatch: 1,
 		cmyk: [18, 26, 90, 0],
@@ -559,7 +559,7 @@ export const colors: Color[] = [
 		hex: '#d6b43e',
 	},
 	{
-		name: 'Yellow Ocher',
+		enName: 'Yellow Ocher',
 		combinations: [42, 96, 118, 124, 126, 191, 222, 325],
 		swatch: 1,
 		cmyk: [12, 28, 88, 0],
@@ -568,7 +568,7 @@ export const colors: Color[] = [
 		hex: '#e2b540',
 	},
 	{
-		name: 'Orange Yellow',
+		enName: 'Orange Yellow',
 		combinations: [114, 148, 153, 164, 170, 257, 286, 338],
 		swatch: 1,
 		cmyk: [0, 33, 100, 0],
@@ -577,7 +577,7 @@ export const colors: Color[] = [
 		hex: '#fcb315',
 	},
 	{
-		name: 'Yellow Orange',
+		enName: 'Yellow Orange',
 		combinations: [
 			2, 53, 89, 151, 171, 209, 222, 235, 267, 288, 297, 312, 319, 335,
 		],
@@ -588,7 +588,7 @@ export const colors: Color[] = [
 		hex: '#f99d1b',
 	},
 	{
-		name: 'Apricot Orange',
+		enName: 'Apricot Orange',
 		combinations: [211, 253, 309, 328],
 		swatch: 1,
 		cmyk: [0, 55, 75, 0],
@@ -597,7 +597,7 @@ export const colors: Color[] = [
 		hex: '#f68c50',
 	},
 	{
-		name: 'Orange',
+		enName: 'Orange',
 		combinations: [7, 46, 141, 144, 149, 256, 272],
 		swatch: 1,
 		cmyk: [0, 68, 100, 0],
@@ -606,7 +606,7 @@ export const colors: Color[] = [
 		hex: '#f37420',
 	},
 	{
-		name: 'Peach Red',
+		enName: 'Peach Red',
 		combinations: [115, 250, 274, 285, 298, 303, 326, 340],
 		swatch: 1,
 		cmyk: [0, 80, 90, 0],
@@ -615,7 +615,7 @@ export const colors: Color[] = [
 		hex: '#f15a30',
 	},
 	{
-		name: 'English Red',
+		enName: 'English Red',
 		combinations: [1, 131, 190, 308, 339],
 		swatch: 1,
 		cmyk: [13, 73, 100, 0],
@@ -624,7 +624,7 @@ export const colors: Color[] = [
 		hex: '#d96629',
 	},
 	{
-		name: 'Cinnamon Rufous',
+		enName: 'Cinnamon Rufous',
 		combinations: [8, 10, 103, 158, 172, 204, 206],
 		swatch: 1,
 		cmyk: [20, 60, 82, 5],
@@ -633,7 +633,7 @@ export const colors: Color[] = [
 		hex: '#c27544',
 	},
 	{
-		name: 'Orange Rufous',
+		enName: 'Orange Rufous',
 		combinations: [91, 102, 222],
 		swatch: 1,
 		cmyk: [18, 65, 100, 8],
@@ -642,7 +642,7 @@ export const colors: Color[] = [
 		hex: '#c16b27',
 	},
 	{
-		name: 'Sulphine Yellow',
+		enName: 'Sulphine Yellow',
 		combinations: [36, 65, 142, 160, 252],
 		swatch: 1,
 		cmyk: [24, 32, 100, 4],
@@ -651,7 +651,7 @@ export const colors: Color[] = [
 		hex: '#c19f2c',
 	},
 	{
-		name: 'Khaki',
+		enName: 'Khaki',
 		combinations: [129, 146, 159, 236, 248],
 		swatch: 1,
 		cmyk: [24, 45, 100, 6],
@@ -660,7 +660,7 @@ export const colors: Color[] = [
 		hex: '#bc892b',
 	},
 	{
-		name: 'Citron Yellow',
+		enName: 'Citron Yellow',
 		combinations: [40, 87, 145, 150, 153, 196, 305, 323],
 		swatch: 1,
 		cmyk: [35, 17, 95, 0],
@@ -669,7 +669,7 @@ export const colors: Color[] = [
 		hex: '#b2b73e',
 	},
 	{
-		name: 'Citrine',
+		enName: 'Citrine',
 		combinations: [59, 93, 132, 133, 262],
 		swatch: 1,
 		cmyk: [36, 32, 100, 0],
@@ -678,7 +678,7 @@ export const colors: Color[] = [
 		hex: '#b09f36',
 	},
 	{
-		name: 'Buffy Citrine',
+		enName: 'Buffy Citrine',
 		combinations: [100, 177, 233],
 		swatch: 1,
 		cmyk: [42, 40, 82, 8],
@@ -687,7 +687,7 @@ export const colors: Color[] = [
 		hex: '#96874d',
 	},
 	{
-		name: 'Dark Citrine',
+		enName: 'Dark Citrine',
 		combinations: [10, 41, 274, 304],
 		swatch: 1,
 		cmyk: [38, 34, 67, 20],
@@ -696,7 +696,7 @@ export const colors: Color[] = [
 		hex: '#8b835b',
 	},
 	{
-		name: 'Light Grayish Olive',
+		enName: 'Light Grayish Olive',
 		combinations: [107, 184],
 		swatch: 1,
 		cmyk: [43, 36, 62, 19],
@@ -705,7 +705,7 @@ export const colors: Color[] = [
 		hex: '#848061',
 	},
 	{
-		name: 'Krongbergs Green',
+		enName: 'Krongbergs Green',
 		combinations: [29],
 		swatch: 1,
 		cmyk: [48, 35, 70, 12],
@@ -714,7 +714,7 @@ export const colors: Color[] = [
 		hex: '#84875e',
 	},
 	{
-		name: 'Olive',
+		enName: 'Olive',
 		combinations: [96, 201, 254, 258, 277, 310, 334],
 		swatch: 1,
 		cmyk: [48, 38, 100, 15],
@@ -723,7 +723,7 @@ export const colors: Color[] = [
 		hex: '#837e31',
 	},
 	{
-		name: 'Orange Citrine',
+		enName: 'Orange Citrine',
 		combinations: [212, 342],
 		swatch: 1,
 		cmyk: [28, 48, 92, 24],
@@ -732,7 +732,7 @@ export const colors: Color[] = [
 		hex: '#986f2d',
 	},
 	{
-		name: 'Sudan Brown',
+		enName: 'Sudan Brown',
 		combinations: [207, 214, 273],
 		swatch: 1,
 		cmyk: [25, 60, 65, 19],
@@ -741,7 +741,7 @@ export const colors: Color[] = [
 		hex: '#a36752',
 	},
 	{
-		name: 'Olive Green',
+		enName: 'Olive Green',
 		combinations: [66, 243, 270, 297],
 		swatch: 1,
 		cmyk: [56, 40, 85, 22],
@@ -750,7 +750,7 @@ export const colors: Color[] = [
 		hex: '#6b7140',
 	},
 	{
-		name: 'Light Brownish Olive',
+		enName: 'Light Brownish Olive',
 		combinations: [199, 318],
 		swatch: 1,
 		cmyk: [42, 46, 73, 24],
@@ -759,7 +759,7 @@ export const colors: Color[] = [
 		hex: '#806e4b',
 	},
 	{
-		name: 'Deep Grayish Olive',
+		enName: 'Deep Grayish Olive',
 		combinations: [146, 343],
 		swatch: 1,
 		cmyk: [50, 48, 78, 37],
@@ -768,7 +768,7 @@ export const colors: Color[] = [
 		hex: '#635a3a',
 	},
 	{
-		name: 'Pale Raw Umber',
+		enName: 'Pale Raw Umber',
 		combinations: [26, 73, 160, 234, 296],
 		swatch: 1,
 		cmyk: [46, 63, 87, 32],
@@ -777,7 +777,7 @@ export const colors: Color[] = [
 		hex: '#71502f',
 	},
 	{
-		name: 'Sepia',
+		enName: 'Sepia',
 		combinations: [24, 288],
 		swatch: 1,
 		cmyk: [48, 60, 100, 40],
@@ -786,7 +786,7 @@ export const colors: Color[] = [
 		hex: '#644b1e',
 	},
 	{
-		name: 'Madder Brown',
+		enName: 'Madder Brown',
 		combinations: [28, 79, 98, 173, 237, 275, 323],
 		swatch: 1,
 		cmyk: [36, 88, 100, 38],
@@ -795,7 +795,7 @@ export const colors: Color[] = [
 		hex: '#762c19',
 	},
 	{
-		name: 'Mars Brown Tobacco',
+		enName: 'Mars Brown Tobacco',
 		combinations: [19],
 		swatch: 1,
 		cmyk: [39, 76, 100, 47],
@@ -804,7 +804,7 @@ export const colors: Color[] = [
 		hex: '#653514',
 	},
 	{
-		name: 'Vandyke Brown',
+		enName: 'Vandyke Brown',
 		combinations: [110, 113, 118, 182, 192, 328],
 		swatch: 1,
 		cmyk: [56, 71, 97, 52],
@@ -813,7 +813,7 @@ export const colors: Color[] = [
 		hex: '#4b3317',
 	},
 	{
-		name: 'Turquoise Green',
+		enName: 'Turquoise Green',
 		combinations: [
 			36, 74, 147, 163, 173, 202, 223, 230, 263, 272, 285, 293, 300, 305, 317,
 			346,
@@ -825,7 +825,7 @@ export const colors: Color[] = [
 		hex: '#b5decc',
 	},
 	{
-		name: 'Glaucous Green',
+		enName: 'Glaucous Green',
 		combinations: [7, 150, 171, 207, 239, 260],
 		swatch: 2,
 		cmyk: [30, 9, 24, 0],
@@ -834,7 +834,7 @@ export const colors: Color[] = [
 		hex: '#b4cdc2',
 	},
 	{
-		name: 'Dark Greenish Glaucous',
+		enName: 'Dark Greenish Glaucous',
 		combinations: [264, 311],
 		swatch: 2,
 		cmyk: [30, 15, 36, 0],
@@ -843,7 +843,7 @@ export const colors: Color[] = [
 		hex: '#b7c2a9',
 	},
 	{
-		name: 'Yellow Green',
+		enName: 'Yellow Green',
 		combinations: [111, 141, 276, 326, 334],
 		swatch: 2,
 		cmyk: [35, 0, 72, 0],
@@ -852,7 +852,7 @@ export const colors: Color[] = [
 		hex: '#afd472',
 	},
 	{
-		name: 'Light Green Yellow',
+		enName: 'Light Green Yellow',
 		combinations: [61, 289, 291, 311, 346],
 		swatch: 2,
 		cmyk: [26, 5, 85, 0],
@@ -861,7 +861,7 @@ export const colors: Color[] = [
 		hex: '#c7d14f',
 	},
 	{
-		name: 'Night Green',
+		enName: 'Night Green',
 		combinations: [19, 32, 158, 326],
 		swatch: 2,
 		cmyk: [52, 0, 100, 0],
@@ -870,7 +870,7 @@ export const colors: Color[] = [
 		hex: '#87c540',
 	},
 	{
-		name: 'Olive Yellow',
+		enName: 'Olive Yellow',
 		combinations: [124, 211, 265, 347],
 		swatch: 2,
 		cmyk: [40, 30, 80, 0],
@@ -879,7 +879,7 @@ export const colors: Color[] = [
 		hex: '#a6a159',
 	},
 	{
-		name: 'Artemesia Green',
+		enName: 'Artemesia Green',
 		combinations: [293, 312],
 		swatch: 2,
 		cmyk: [57, 28, 39, 8],
@@ -888,7 +888,7 @@ export const colors: Color[] = [
 		hex: '#709390',
 	},
 	{
-		name: 'Andover Green',
+		enName: 'Andover Green',
 		combinations: [244, 346],
 		swatch: 2,
 		cmyk: [60, 40, 50, 10],
@@ -897,7 +897,7 @@ export const colors: Color[] = [
 		hex: '#6d7e77',
 	},
 	{
-		name: 'Rainette Green',
+		enName: 'Rainette Green',
 		combinations: [73, 162, 188, 266, 301],
 		swatch: 2,
 		cmyk: [42, 20, 62, 10],
@@ -906,7 +906,7 @@ export const colors: Color[] = [
 		hex: '#8fa071',
 	},
 	{
-		name: 'Chromium Green',
+		enName: 'Chromium Green',
 		combinations: [105, 200, 219, 283],
 		swatch: 2,
 		cmyk: [50, 16, 58, 20],
@@ -915,7 +915,7 @@ export const colors: Color[] = [
 		hex: '#719470',
 	},
 	{
-		name: 'Pistachio Green',
+		enName: 'Pistachio Green',
 		combinations: [127, 137],
 		swatch: 2,
 		cmyk: [64, 29, 56, 6],
@@ -924,7 +924,7 @@ export const colors: Color[] = [
 		hex: '#648f7b',
 	},
 	{
-		name: 'Sea Green',
+		enName: 'Sea Green',
 		combinations: [17, 21, 58, 86, 133, 250, 260, 284, 291, 340, 347],
 		swatch: 2,
 		cmyk: [80, 0, 51, 0],
@@ -933,7 +933,7 @@ export const colors: Color[] = [
 		hex: '#00b49b',
 	},
 	{
-		name: 'Benzol Green',
+		enName: 'Benzol Green',
 		combinations: [15, 54, 92, 122, 155, 247, 266, 267, 281, 304, 306],
 		swatch: 2,
 		cmyk: [100, 15, 55, 0],
@@ -942,7 +942,7 @@ export const colors: Color[] = [
 		hex: '#00978d',
 	},
 	{
-		name: 'Light Porcelain Green',
+		enName: 'Light Porcelain Green',
 		combinations: [44, 193, 328],
 		swatch: 2,
 		cmyk: [86, 22, 50, 3],
@@ -951,7 +951,7 @@ export const colors: Color[] = [
 		hex: '#00908a',
 	},
 	{
-		name: 'Green',
+		enName: 'Green',
 		combinations: [198, 216, 293],
 		swatch: 2,
 		cmyk: [75, 21, 73, 0],
@@ -960,7 +960,7 @@ export const colors: Color[] = [
 		hex: '#489b6e',
 	},
 	{
-		name: 'Dull Viridian Green',
+		enName: 'Dull Viridian Green',
 		combinations: [136, 256, 306, 316],
 		swatch: 2,
 		cmyk: [90, 20, 80, 0],
@@ -969,7 +969,7 @@ export const colors: Color[] = [
 		hex: '#009465',
 	},
 	{
-		name: 'Oil Green',
+		enName: 'Oil Green',
 		combinations: [245, 299, 320],
 		swatch: 2,
 		cmyk: [53, 28, 100, 8],
@@ -978,7 +978,7 @@ export const colors: Color[] = [
 		hex: '#819238',
 	},
 	{
-		name: 'Diamine Green',
+		enName: 'Diamine Green',
 		combinations: [38, 146, 217, 242, 251, 313],
 		swatch: 2,
 		cmyk: [87, 32, 91, 18],
@@ -987,7 +987,7 @@ export const colors: Color[] = [
 		hex: '#1a7444',
 	},
 	{
-		name: 'Cossack Green',
+		enName: 'Cossack Green',
 		combinations: [5, 135, 262, 270, 278, 294, 319, 341, 348],
 		swatch: 2,
 		cmyk: [76, 32, 91, 18],
@@ -996,7 +996,7 @@ export const colors: Color[] = [
 		hex: '#437742',
 	},
 	{
-		name: 'Lincoln Green',
+		enName: 'Lincoln Green',
 		combinations: [70, 121, 203, 210, 280, 290],
 		swatch: 2,
 		cmyk: [60, 48, 86, 37],
@@ -1005,7 +1005,7 @@ export const colors: Color[] = [
 		hex: '#555832',
 	},
 	{
-		name: 'Blackish Olive',
+		enName: 'Blackish Olive',
 		combinations: [109, 318, 336],
 		swatch: 2,
 		cmyk: [56, 32, 63, 55],
@@ -1014,7 +1014,7 @@ export const colors: Color[] = [
 		hex: '#42533e',
 	},
 	{
-		name: 'Deep Slate Olive',
+		enName: 'Deep Slate Olive',
 		combinations: [189, 229, 268, 303, 310, 321, 332, 341, 342, 348],
 		swatch: 2,
 		cmyk: [76, 60, 80, 62],
@@ -1023,7 +1023,7 @@ export const colors: Color[] = [
 		hex: '#253122',
 	},
 	{
-		name: 'Nile Blue',
+		enName: 'Nile Blue',
 		combinations: [25, 250, 268, 302, 306, 330, 345],
 		swatch: 3,
 		cmyk: [25, 0, 10, 0],
@@ -1032,7 +1032,7 @@ export const colors: Color[] = [
 		hex: '#bce4e5',
 	},
 	{
-		name: "Pale King's Blue",
+		enName: "Pale King's Blue",
 		combinations: [16, 49, 72, 75, 167, 196, 213, 234, 287],
 		swatch: 3,
 		cmyk: [33, 4, 7, 0],
@@ -1041,7 +1041,7 @@ export const colors: Color[] = [
 		hex: '#a7d4e4',
 	},
 	{
-		name: 'Light Glaucous Blue',
+		enName: 'Light Glaucous Blue',
 		combinations: [54, 93, 119, 152, 178, 204, 227, 320, 339, 341],
 		swatch: 3,
 		cmyk: [35, 10, 14, 0],
@@ -1050,7 +1050,7 @@ export const colors: Color[] = [
 		hex: '#a5c8d1',
 	},
 	{
-		name: 'Salvia Blue',
+		enName: 'Salvia Blue',
 		combinations: [
 			29, 129, 135, 139, 142, 188, 209, 212, 237, 272, 294, 321, 330,
 		],
@@ -1061,7 +1061,7 @@ export const colors: Color[] = [
 		hex: '#97acc8',
 	},
 	{
-		name: 'Cobalt Green',
+		enName: 'Cobalt Green',
 		combinations: [156, 188, 201, 202, 230, 271, 281, 282, 290, 291, 308, 333],
 		swatch: 3,
 		cmyk: [42, 0, 42, 0],
@@ -1070,7 +1070,7 @@ export const colors: Color[] = [
 		hex: '#96d1aa',
 	},
 	{
-		name: 'Calamine BLue',
+		enName: 'Calamine BLue',
 		combinations: [20, 41, 65, 159, 176, 255, 261, 287, 291, 300],
 		swatch: 3,
 		cmyk: [50, 0, 20, 0],
@@ -1079,7 +1079,7 @@ export const colors: Color[] = [
 		hex: '#78cdd0',
 	},
 	{
-		name: 'Venice Green',
+		enName: 'Venice Green',
 		combinations: [78, 128, 138, 189, 283, 345],
 		swatch: 3,
 		cmyk: [58, 0, 30, 0],
@@ -1088,7 +1088,7 @@ export const colors: Color[] = [
 		hex: '#62c6bf',
 	},
 	{
-		name: 'Cerulian Blue',
+		enName: 'Cerulian Blue',
 		combinations: [1, 63, 99, 125, 148, 227, 240, 264],
 		swatch: 3,
 		cmyk: [84, 26, 32, 0],
@@ -1097,7 +1097,7 @@ export const colors: Color[] = [
 		hex: '#0093a5',
 	},
 	{
-		name: 'Peacock Blue',
+		enName: 'Peacock Blue',
 		combinations: [131, 286],
 		swatch: 3,
 		cmyk: [100, 19, 43, 0],
@@ -1106,7 +1106,7 @@ export const colors: Color[] = [
 		hex: '#00939b',
 	},
 	{
-		name: 'Green Blue',
+		enName: 'Green Blue',
 		combinations: [12, 74, 79, 178, 208, 252, 259, 271, 330],
 		swatch: 3,
 		cmyk: [82, 24, 40, 3],
@@ -1115,7 +1115,7 @@ export const colors: Color[] = [
 		hex: '#099197',
 	},
 	{
-		name: 'Olympic Blue',
+		enName: 'Olympic Blue',
 		combinations: [44, 67, 157, 194, 231, 274, 324],
 		swatch: 3,
 		cmyk: [69, 44, 10, 0],
@@ -1124,7 +1124,7 @@ export const colors: Color[] = [
 		hex: '#5a82b3',
 	},
 	{
-		name: 'Blue',
+		enName: 'Blue',
 		combinations: [49, 51, 88, 143, 154, 186, 191, 215, 257, 267, 295, 333],
 		swatch: 3,
 		cmyk: [95, 54, 0, 0],
@@ -1133,7 +1133,7 @@ export const colors: Color[] = [
 		hex: '#006eb8',
 	},
 	{
-		name: 'Antwarp Blue',
+		enName: 'Antwarp Blue',
 		combinations: [
 			85, 106, 114, 140, 163, 172, 208, 244, 258, 281, 299, 302, 334,
 		],
@@ -1144,7 +1144,7 @@ export const colors: Color[] = [
 		hex: '#007190',
 	},
 	{
-		name: 'Helvetia Blue',
+		enName: 'Helvetia Blue',
 		combinations: [39, 48, 161, 187, 218, 259, 312, 347],
 		swatch: 3,
 		cmyk: [100, 62, 19, 10],
@@ -1153,7 +1153,7 @@ export const colors: Color[] = [
 		hex: '#005b8d',
 	},
 	{
-		name: 'Dark Medici Blue',
+		enName: 'Dark Medici Blue',
 		combinations: [160, 224, 241, 249],
 		swatch: 3,
 		cmyk: [70, 45, 45, 15],
@@ -1162,7 +1162,7 @@ export const colors: Color[] = [
 		hex: '#547076',
 	},
 	{
-		name: 'Dusky Green',
+		enName: 'Dusky Green',
 		combinations: [94, 219, 225, 278, 284, 318, 332, 338],
 		swatch: 3,
 		cmyk: [100, 30, 64, 50],
@@ -1171,7 +1171,7 @@ export const colors: Color[] = [
 		hex: '#004f46',
 	},
 	{
-		name: 'Deep Lyons Blue',
+		enName: 'Deep Lyons Blue',
 		combinations: [22, 38, 101, 126, 179, 199, 236, 247, 314, 344],
 		swatch: 3,
 		cmyk: [100, 85, 15, 6],
@@ -1180,7 +1180,7 @@ export const colors: Color[] = [
 		hex: '#1c4286',
 	},
 	{
-		name: 'Violet Blue',
+		enName: 'Violet Blue',
 		combinations: [75, 83, 89, 98, 125, 233, 286, 289, 297, 309, 339],
 		swatch: 3,
 		cmyk: [85, 79, 38, 16],
@@ -1189,7 +1189,7 @@ export const colors: Color[] = [
 		hex: '#40456a',
 	},
 	{
-		name: "Vandar Poel's Blue",
+		enName: "Vandar Poel's Blue",
 		combinations: [5, 77, 151, 167, 168, 309, 343],
 		swatch: 3,
 		cmyk: [100, 73, 43, 10],
@@ -1198,7 +1198,7 @@ export const colors: Color[] = [
 		hex: '#064f6e',
 	},
 	{
-		name: 'Dark Tyrian Blue',
+		enName: 'Dark Tyrian Blue',
 		combinations: [2, 60, 67, 119, 141, 245, 279],
 		swatch: 3,
 		cmyk: [90, 66, 36, 50],
@@ -1207,7 +1207,7 @@ export const colors: Color[] = [
 		hex: '#12354e',
 	},
 	{
-		name: 'Dull Violet Black',
+		enName: 'Dull Violet Black',
 		combinations: [95, 106, 145, 265, 277, 289, 295, 331],
 		swatch: 3,
 		cmyk: [95, 106, 38, 50],
@@ -1216,7 +1216,7 @@ export const colors: Color[] = [
 		hex: '#1e0e3f',
 	},
 	{
-		name: 'Deep Indigo',
+		enName: 'Deep Indigo',
 		combinations: [6, 28, 139, 155, 182, 211, 232],
 		swatch: 3,
 		cmyk: [100, 92, 52, 60],
@@ -1225,7 +1225,7 @@ export const colors: Color[] = [
 		hex: '#051230',
 	},
 	{
-		name: 'Deep Slate Green',
+		enName: 'Deep Slate Green',
 		combinations: [84, 149, 166, 271, 318, 325],
 		swatch: 3,
 		cmyk: [80, 50, 60, 70],
@@ -1234,7 +1234,7 @@ export const colors: Color[] = [
 		hex: '#112f2c',
 	},
 	{
-		name: 'Grayish Lavender - A',
+		enName: 'Grayish Lavender - A',
 		combinations: [8, 15, 159, 177, 218, 248, 307],
 		swatch: 4,
 		cmyk: [28, 28, 0, 0],
@@ -1243,7 +1243,7 @@ export const colors: Color[] = [
 		hex: '#b5b1d8',
 	},
 	{
-		name: 'Grayish Lavender - B',
+		enName: 'Grayish Lavender - B',
 		combinations: [47, 56, 174, 187, 235, 327, 329, 338],
 		swatch: 4,
 		cmyk: [25, 33, 20, 0],
@@ -1252,7 +1252,7 @@ export const colors: Color[] = [
 		hex: '#c0a9b3',
 	},
 	{
-		name: 'Laelia Pink',
+		enName: 'Laelia Pink',
 		combinations: [20, 254, 280, 337],
 		swatch: 4,
 		cmyk: [20, 48, 18, 0],
@@ -1261,7 +1261,7 @@ export const colors: Color[] = [
 		hex: '#ca92a8',
 	},
 	{
-		name: 'Lilac',
+		enName: 'Lilac',
 		combinations: [143, 162, 282, 347],
 		swatch: 4,
 		cmyk: [28, 54, 8, 0],
@@ -1270,7 +1270,7 @@ export const colors: Color[] = [
 		hex: '#b984af',
 	},
 	{
-		name: 'Eupatorium Purple',
+		enName: 'Eupatorium Purple',
 		combinations: [215, 315, 322],
 		swatch: 4,
 		cmyk: [25, 79, 12, 0],
@@ -1279,7 +1279,7 @@ export const colors: Color[] = [
 		hex: '#bf5892',
 	},
 	{
-		name: 'Light Mauve',
+		enName: 'Light Mauve',
 		combinations: [23, 80, 128, 134, 180, 274, 331],
 		swatch: 4,
 		cmyk: [43, 62, 5, 0],
@@ -1288,7 +1288,7 @@ export const colors: Color[] = [
 		hex: '#9a72aa',
 	},
 	{
-		name: 'Aconite Violet',
+		enName: 'Aconite Violet',
 		combinations: [43, 64, 90, 187, 220, 257, 269, 301, 307, 324, 344],
 		swatch: 4,
 		cmyk: [39, 68, 5, 0],
@@ -1297,7 +1297,7 @@ export const colors: Color[] = [
 		hex: '#a36aa5',
 	},
 	{
-		name: 'Dull Blue Violet',
+		enName: 'Dull Blue Violet',
 		combinations: [9, 100],
 		swatch: 4,
 		cmyk: [57, 60, 17, 0],
@@ -1306,7 +1306,7 @@ export const colors: Color[] = [
 		hex: '#80719e',
 	},
 	{
-		name: 'Dark Soft Violet',
+		enName: 'Dark Soft Violet',
 		combinations: [64, 127, 197],
 		swatch: 4,
 		cmyk: [70, 68, 13, 0],
@@ -1315,7 +1315,7 @@ export const colors: Color[] = [
 		hex: '#66629c',
 	},
 	{
-		name: 'Blue Violet',
+		enName: 'Blue Violet',
 		combinations: [116, 175, 196, 322, 345],
 		swatch: 4,
 		cmyk: [72, 80, 0, 0],
@@ -1324,7 +1324,7 @@ export const colors: Color[] = [
 		hex: '#6450a1',
 	},
 	{
-		name: 'Purple Drab',
+		enName: 'Purple Drab',
 		combinations: [236],
 		swatch: 4,
 		cmyk: [38, 65, 49, 26],
@@ -1333,7 +1333,7 @@ export const colors: Color[] = [
 		hex: '#84565b',
 	},
 	{
-		name: 'Deep Violet / Plumbeous',
+		enName: 'Deep Violet / Plumbeous',
 		combinations: [183, 192, 218],
 		swatch: 4,
 		cmyk: [61, 52, 43, 7],
@@ -1342,7 +1342,7 @@ export const colors: Color[] = [
 		hex: '#70727c',
 	},
 	{
-		name: 'Veronia Purple',
+		enName: 'Veronia Purple',
 		combinations: [13, 24, 168, 183],
 		swatch: 4,
 		cmyk: [42, 78, 46, 15],
@@ -1351,7 +1351,7 @@ export const colors: Color[] = [
 		hex: '#8c4c62',
 	},
 	{
-		name: 'Dark Slate Purple',
+		enName: 'Dark Slate Purple',
 		combinations: [225, 248],
 		swatch: 4,
 		cmyk: [64, 85, 60, 10],
@@ -1360,7 +1360,7 @@ export const colors: Color[] = [
 		hex: '#704357',
 	},
 	{
-		name: 'Taupe Brown',
+		enName: 'Taupe Brown',
 		combinations: [57, 123, 174, 224, 275, 280, 288],
 		swatch: 4,
 		cmyk: [30, 70, 35, 40],
@@ -1369,7 +1369,7 @@ export const colors: Color[] = [
 		hex: '#7a4456',
 	},
 	{
-		name: 'Violet Carmine',
+		enName: 'Violet Carmine',
 		combinations: [337],
 		swatch: 4,
 		cmyk: [64, 90, 70, 10],
@@ -1378,7 +1378,7 @@ export const colors: Color[] = [
 		hex: '#713b4c',
 	},
 	{
-		name: 'Violet',
+		enName: 'Violet',
 		combinations: [42, 56, 130, 156, 164, 181, 205, 214, 226, 316, 331, 335],
 		swatch: 4,
 		cmyk: [85, 90, 18, 0],
@@ -1387,7 +1387,7 @@ export const colors: Color[] = [
 		hex: '#4f4086',
 	},
 	{
-		name: 'Red Violet',
+		enName: 'Red Violet',
 		combinations: [4, 37, 134, 136, 170, 172, 183, 316],
 		swatch: 4,
 		cmyk: [76, 100, 25, 15],
@@ -1396,7 +1396,7 @@ export const colors: Color[] = [
 		hex: '#59256a',
 	},
 	{
-		name: 'Cotinga Purple',
+		enName: 'Cotinga Purple',
 		combinations: [61, 181, 238, 253, 307, 329, 348],
 		swatch: 4,
 		cmyk: [66, 100, 42, 40],
@@ -1405,7 +1405,7 @@ export const colors: Color[] = [
 		hex: '#501345',
 	},
 	{
-		name: 'Dusky Madder Violet',
+		enName: 'Dusky Madder Violet',
 		combinations: [18, 50, 53, 82, 103, 314],
 		swatch: 4,
 		cmyk: [75, 100, 46, 30],
@@ -1414,7 +1414,7 @@ export const colors: Color[] = [
 		hex: '#4e1d4c',
 	},
 	{
-		name: 'White',
+		enName: 'White',
 		combinations: [55],
 		swatch: 5,
 		cmyk: [0, 0, 0, 0],
@@ -1423,7 +1423,7 @@ export const colors: Color[] = [
 		hex: '#ffffff',
 	},
 	{
-		name: 'Neutral Gray',
+		enName: 'Neutral Gray',
 		combinations: [34, 139, 180, 195, 197, 221, 228, 229, 273, 303, 324, 340],
 		swatch: 5,
 		cmyk: [29, 18, 20, 0],
@@ -1432,7 +1432,7 @@ export const colors: Color[] = [
 		hex: '#b6bfc1',
 	},
 	{
-		name: 'Mineral Gray',
+		enName: 'Mineral Gray',
 		combinations: [11, 30],
 		swatch: 5,
 		cmyk: [33, 18, 25, 7],
@@ -1441,7 +1441,7 @@ export const colors: Color[] = [
 		hex: '#a2b0ad',
 	},
 	{
-		name: 'Warm Gray',
+		enName: 'Warm Gray',
 		combinations: [69, 76, 81, 143, 169, 238, 259, 261],
 		swatch: 5,
 		cmyk: [37, 28, 36, 3],
@@ -1450,7 +1450,7 @@ export const colors: Color[] = [
 		hex: '#a1a39a',
 	},
 	{
-		name: 'Slate Color',
+		enName: 'Slate Color',
 		combinations: [
 			27, 33, 57, 140, 202, 243, 245, 251, 253, 263, 296, 329, 335,
 		],
@@ -1461,7 +1461,7 @@ export const colors: Color[] = [
 		hex: '#34454c',
 	},
 	{
-		name: 'Black',
+		enName: 'Black',
 		combinations: [
 			46, 52, 62, 69, 112, 117, 144, 190, 207, 216, 221, 242, 255, 256, 269,
 			276, 288, 298, 313, 323, 337, 340, 344,
@@ -1473,4 +1473,5 @@ export const colors: Color[] = [
 		hex: '#111314',
 	},
 ];
+
 export default colors;

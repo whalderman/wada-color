@@ -24,7 +24,7 @@
 	const textColor1NameMiddleAnchorX = u / 2;
 	const textColor2NameMiddleAnchorX = u + textColor1NameMiddleAnchorX;
 	const textColor3NameMiddleAnchorX = u + textColor2NameMiddleAnchorX;
-	const textColorNameY = u + oo * 2;
+	const textColorNameY = u + oo * 3;
 
 	const textFontSize = 3;
 	const hexFontSize = 2.5;

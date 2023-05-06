@@ -21,7 +21,7 @@
 	const textWidth = u - oo * 4;
 	const textColor1NameMiddleAnchorX = u / 2;
 	const textColor2NameMiddleAnchorX = u + textColor1NameMiddleAnchorX;
-	const textColorNameY = u + oo * 2;
+	const textColorNameY = u + oo * 3;
 
 	const textFontSize = 2.5;
 
